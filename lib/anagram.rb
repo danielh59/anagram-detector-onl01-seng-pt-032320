@@ -8,8 +8,9 @@ end
 
 def match(the_list_of_words_i_guess)
   x = @the_word.split("").sort
-  y = the_list_of_words_i_guess.split("")
-  x.detect?(y)
+  y = the_list_of_words_i_guess.split("").sort
+  if x == y 
+  end
 end
 
 end
