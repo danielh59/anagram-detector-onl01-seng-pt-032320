@@ -7,15 +7,8 @@ def initialize(a_word)
 end
 
 def match(the_list_of_words_i_guess)
-  # x = @the_word.split("").sort
-  # y = the_list_of_words_i_guess.split("").sort
-  the_list_of_words_i_guess.each do |x|
-    hey = x.split("").sort
-    y =  @the_word.split("").sort
-  if   y == hey
-    return x
-  else
-  end
+  the_list_of_words_i_guess.select do |x|
+    @the_word.split("").sort ==  x.split("").sort
 end
 end
 
