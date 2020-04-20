@@ -13,7 +13,7 @@ def match(the_list_of_words_i_guess)
     hey = x.split("").sort
     y =  @the_word.split("").sort
   if   y == hey
-    return y
+    return x
   else
   end
 end
