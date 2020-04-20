@@ -7,8 +7,8 @@ def initialize(a_word)
 end
 
 def match(the_list_of_words_i_guess)
-  x = @the_word.split.sort
-  y= the_list_of_words_i_guess.split.sort
+  x = @the_word.split("").sort
+  y = the_list_of_words_i_guess.split("")
   x.detect?(y)
 end
 
