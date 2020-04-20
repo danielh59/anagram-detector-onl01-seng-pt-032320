@@ -10,14 +10,14 @@ def match(the_list_of_words_i_guess)
   # x = @the_word.split("").sort
   # y = the_list_of_words_i_guess.split("").sort
   the_list_of_words_i_guess.each do |x|
-    hey = x.split("").sort 
-    y =  @the_word.split("").sort 
-  if   y == hey 
-    return true 
+    hey = x.split("").sort
+    y =  @the_word.split("").sort
+  if   y == hey
+    return true
   else
     false
   end
-end 
+end
 end
 
 end
